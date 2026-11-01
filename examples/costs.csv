@@ -1,0 +1,13 @@
+date,service,cost
+2026-10-01,Compute,20.00
+2026-10-02,Compute,21.50
+2026-10-03,Compute,19.75
+2026-10-04,Compute,20.25
+2026-10-05,Compute,21.00
+2026-10-06,Compute,20.50
+2026-10-07,Compute,72.00
+2026-10-01,Storage,5.00
+2026-10-02,Storage,5.10
+2026-10-03,Storage,5.00
+2026-10-04,Storage,5.20
+2026-10-05,Storage,5.10

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cloud-cost-anomaly-detector"
+version = "0.1.0"
+description = "Offline CLI for detecting unusual cloud spend from billing CSV files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Chakri-Kolan" }]
+dependencies = []
+
+[project.scripts]
+cloud-cost-anomaly = "cloud_cost_anomaly.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.coverage.run]
+branch = true
+source = ["cloud_cost_anomaly"]
+
+[tool.coverage.report]
+fail_under = 85
+show_missing = true
